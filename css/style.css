@@ -15,7 +15,7 @@ body {
 
 div.row{
   margin-right: 0px;
-  margin: 0px!important;
+  
 }
 
 
@@ -595,7 +595,7 @@ top: 0px; left: 8px;
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -762,13 +762,7 @@ top: 0px; left: 8px;
 /* Team Section
 --------------------------------*/
 
-#cuad{
-  position: relative;
-  right: 570px;
-  top: 500;
-  
 
-}
 #team {
   background: #fff;
   padding: 80px 0 60px 0;
@@ -891,19 +885,83 @@ top: 0px; left: 8px;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  background: #111 ;
-  padding: 30px 0;
+
+.footer {
+  width: 100%;
+  background-color: #222;
+  position: relative;
+  z-index: 1;
+}
+.footer a {
   color: #fff;
 }
 
-#footer .copyright {
-  text-align: center;
+.footer .footer-top {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+.footer .widget-title, .footer .widget-title a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #999;
+}
+.footer .widget-title{
+  padding-bottom: 20px;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 44px;
+  color: #F5BC00;
+}
+.footer .widget, .footer address {
+  color: #999;
+  text-transform: none;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+.footer .navigation, .footer .social-list {
+  float: none;
+  margin-bottom: 20px;
+}
+.list-horizontal li {
+  display: inline-block;
+}
+#contact{
+  background-color: rgba(221, 221, 221, 0.33);
+}
+.footer .social-list a {
+  font-size: 32px;
+  font-weight: normal;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 5px;
+  
+}
+#wp{
+  color: #25D366;
+
+}
+#tw{
+  color: #1DA1F2;
+
+}
+#ig{
+  color:  #E1306C;
+  
+}
+#li{
+  color: #0072b1;
+
+
+}
+#fb{
+  color: #3368FF;
+
 }
 
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #F5BC00 ;
-}
+
+
+
+
+
+
+
